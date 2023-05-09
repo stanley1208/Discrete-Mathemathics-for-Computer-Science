@@ -1,1 +1,1 @@
-# Discrete-Mathemathics-for-Computer-Science
+# Discrete-Mathemathics course form Coursera
