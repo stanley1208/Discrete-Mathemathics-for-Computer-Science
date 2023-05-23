@@ -24,7 +24,7 @@ def extend(perm,n):
     for k in range(n):
         if k not in perm:
             perm.append(k)
-            print(perm)
+
             if can_be_extended_to_solution(perm):
                 extend(perm,n)
 
@@ -40,5 +40,5 @@ def can_be_extended_to_solution(perm):
     return True
 
 
-print(extend(perm=[],n=4))
+print(extend(perm=[],n=8))
 
