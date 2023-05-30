@@ -1,15 +1,18 @@
 def change(amount):
-    assert (amount>=8)
-    if amount==8:
-        return [3,5]
-    if amount==9:
-        return [3,3,3]
-    if amount==10:
-        return [5,5]
+    lis=[]
+    x5,x7=0,0
+    while (amount<=1000):
+        if(amount%7==0):
+            x7=amount//7
+            break
+        else:
+            amount-=5
+            x5+=1
+    for i in range(x5):
+        lis.append(5)
+    for i in range(x7):
+        lis.append(7)
+    return(lis)
 
-    coins=change(amount-3)
-    coins.append(3)
-    return coins
 
-
-print(change(100))
+print(change(500))
