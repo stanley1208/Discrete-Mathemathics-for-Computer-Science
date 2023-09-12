@@ -29,6 +29,7 @@ def print_example(starting_amount,earn_percent,target_amount):
     print("days:",days)
 
 print_example(1000,2,1000000)
+print_example(1000,10,1000000)
 
 
 def how_much_money(starting_amount,earn_percent,day):
@@ -43,3 +44,6 @@ def print_example2(starting_amount,earn_percent,day):
     print("money:",money)
 
 print_example2(1000,2,365)
+
+
+
