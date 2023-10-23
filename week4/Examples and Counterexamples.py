@@ -19,3 +19,8 @@ for n in range(1,100):
         print(n)
         exit()
 
+
+def is_prime2(n):
+    return n!=1 and all(n%d!=0 for d in range(2,n))
+
+print(next(n for n in range(1,100) if not is_prime2(n**2+n+41)))
