@@ -31,4 +31,10 @@ print(next(n for n in range(1,100) if not is_prime2(n**2+n+41)))
 
 for a,b,c in combinations(range(1,20),3):
     if a**2+b**2==c**2:
-        print(f'{a}**2+{b}**2={c**2}')
+        print(f'{a}**2+{b}**2={c}**2')
+
+
+
+for a,b,c in combinations(range(1,20),3):
+    if a**3+b**3==c**3:
+        print(f'{a}**3+{b}**3={c}**3')
