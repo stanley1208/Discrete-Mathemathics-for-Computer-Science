@@ -38,3 +38,6 @@ for a,b,c in combinations(range(1,20),3):
 for a,b,c in combinations(range(1,20),3):
     if a**3+b**3==c**3:
         print(f'{a}**3+{b}**3={c}**3')
+
+print(95800 ** 4 + 217519 ** 4 + 414560 ** 4)
+print(422481 ** 4)
