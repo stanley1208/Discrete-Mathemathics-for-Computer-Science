@@ -17,9 +17,9 @@ def is_prime(n):
 
     return True
 
-# for n in range(1,100):
-#     if not is_prime(n**2+n+41):
-#         print(n)
+for n in range(1,100):
+    if not is_prime(n**2+n+41):
+        print(n)
 #         exit()
 
 
