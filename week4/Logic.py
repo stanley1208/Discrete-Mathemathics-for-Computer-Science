@@ -11,3 +11,9 @@ if 2+2==5 and foo():
     print("True")
 else:
     print("False")
+
+# if ~((x<=5) & y>=7):
+# if ((x>5) | (y<7)):
+# if ~((x>9) | (y>3)):
+
+
